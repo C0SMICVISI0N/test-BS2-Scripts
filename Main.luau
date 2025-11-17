@@ -1,7 +1,5 @@
 
-
 -- Services
-local PathfindingService = game:GetService("PathfindingService")
 local Players = game:GetService("Players")
 local VirtualUser = game:GetService("VirtualUser")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
