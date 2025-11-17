@@ -9,3 +9,5 @@ for _, File: string in to_load do
   loadstring(game:HttpGet(File))()
   
 end
+
+_G[HubName].IsLoaded = true
