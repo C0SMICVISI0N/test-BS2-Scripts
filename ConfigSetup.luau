@@ -53,7 +53,7 @@ function AutoSave(HubName: string)
     
     if not _G[HubName] then return end
 
-    --if _G[HubName].IsLoaded then return end
+    if _G[HubName].IsLoaded then return end
 
     while task.wait(15) do
         
