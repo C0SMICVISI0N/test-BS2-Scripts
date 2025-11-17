@@ -1,5 +1,4 @@
 
-if _G[HubName].IsLoaded then return end
 
 -- Services
 local PathfindingService = game:GetService("PathfindingService")
